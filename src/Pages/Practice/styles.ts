@@ -11,7 +11,7 @@ export const Container = styled.div`
 `;
 
 export const PracticePainel = styled.div`
-    width: 90%;
+    width: 95%;
     position: relative;
     background-color: #f1f3f4;
     margin-top: 160px;
@@ -40,7 +40,7 @@ export const PracticePainel = styled.div`
 `;
 
 export const PracticeCard = styled.div`
-    width: 90%;
+    width: 95%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 10px;

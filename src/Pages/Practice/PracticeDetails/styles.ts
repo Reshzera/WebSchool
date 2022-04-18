@@ -88,7 +88,7 @@ export const SocreCard = styled.div<props>`
     background-color: ${({grade}) => grade > 7 ? "#91db92" : "#ffc3c3"};
     border-radius: 20px;
     margin-bottom: 10px;
-    padding: 20px 0px;
+    padding: 20px 20px;
     h1{
         overflow: hidden;
         margin: 0px;

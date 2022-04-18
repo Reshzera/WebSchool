@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const ListContainer = styled.div`
     background-color: #e1e1e1;
-    width: 90%;
+    width: 95%;
     border-radius: 20px;
     height: 80%;
     margin: 0px 60px 60px 60px;
@@ -15,7 +15,7 @@ export const ListContainer = styled.div`
 `;
 
 export const ListColumns = styled.div`
-    width: 90%;
+    width: 95%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     text-align: center;
