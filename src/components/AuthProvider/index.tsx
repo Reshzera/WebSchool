@@ -4,9 +4,14 @@ import Header from '../Header';
 
 // import { Container } from './styles';
 
-function AuthProvider({children}:any){
+interface authProps{
+  student?: boolean,
+  teacher?: boolean
+}
+
+const AuthProvider: React.FC<authProps> = ({children, student, teacher}) => {
     const autenticated = true 
-  return (autenticated ?
+  return ((autenticated && student) || (autenticated && teacher) ?
   (
     <>
       <Header/>

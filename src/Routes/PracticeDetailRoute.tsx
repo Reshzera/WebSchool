@@ -6,7 +6,7 @@ import PracticeDetails from '../Pages/Practice/PracticeDetails';
 
 const PractoceDetailRoute: React.FC = () => {
   return (
-      <AuthProvider>
+      <AuthProvider student>
           <PracticeDetails/>
       </AuthProvider>
   );

@@ -7,7 +7,7 @@ import Dashboard from '../Pages/Dashboard';
 
 function DashboardRoute(){
   return (
-      <AuthProvider>
+      <AuthProvider student>
         <Dashboard/>
       </AuthProvider>
   );

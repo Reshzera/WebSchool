@@ -6,7 +6,7 @@ import Practice from '../Pages/Practice';
 
 const Routes: React.FC = () => {
   return (
-      <AuthProvider>
+      <AuthProvider student>
           <Practice/>
       </AuthProvider>
   );

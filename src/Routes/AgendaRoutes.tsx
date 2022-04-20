@@ -6,7 +6,7 @@ import Agenda from '../Pages/Agenda';
 
 const AgendaRoutes: React.FC = () => {
   return (
-      <AuthProvider>
+      <AuthProvider student>
           <Agenda/>
       </AuthProvider>
   );

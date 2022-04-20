@@ -6,7 +6,7 @@ import ScoresMean from '../Pages/ScoresMean';
 
 const ScoresMeanRoutes: React.FC = () => {
   return (
-      <AuthProvider>
+      <AuthProvider student>
           <ScoresMean/>
       </AuthProvider>
   );

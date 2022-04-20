@@ -39,7 +39,7 @@ export const StudentInfo = styled.div`
 export const StudentBio = styled.section`
     position: relative;
     display: flex;
-    flex: 1;
+    flex: 1.5;
     height: 300px;
     flex-direction: column;
     align-items: center;
